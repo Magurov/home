@@ -41,9 +41,7 @@ a:hover                        { text-decoration:none; }
 .wrapper {
     font-family:"Times New Roman" ;
     font-size: 14px;
-    margin: 0 auto;
-    overflow: hidden;
-    width: 960px;
+    padding: 10px;
 }
 h1 {
     background: #000000;
@@ -59,28 +57,14 @@ h1 {
     padding: 20px;
     list-style:circle outside;
 }
-div.green {
+p.green {
     border: 3px green solid;
     text-align: right;
     margin: 10px;
     padding: 5px;
     background: silver;
 }
-div.txt{
-    font-size: 20px;
-    text-align: left;
-}
-.tag{
-    font-style: oblique;
-    quotes:"[""]";
-}
-.tag:before{
-    content: open-quote;
-}
-.tag:after{
-    content: close-quote;
-}
-div.center_green {
+p.center_green {
     background: none repeat scroll 0 0 green;
     border-bottom: 3px dotted yellow;
     border-top: 3px dotted yellow;
@@ -90,15 +74,10 @@ div.center_green {
     padding: 30px;
     width: 50%;
 }
-a:link {
+a:link,a:visited  {
     color: #f00;
 }
-a:visited {
-    color: #900060;
-}
-a:active {
-    color: #0000d0;
-}
+
 .black{
     font-weight: bold;
 }
